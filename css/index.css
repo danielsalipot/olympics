@@ -1,0 +1,84 @@
+	/* 	
+		dark blue : #1e4382 
+		light blue : #27aae1
+		black : #000000
+		white : #ffffff
+	*/
+	
+	*{
+		padding:0px;
+		margin:0px;
+		overflow-x: hidden;
+		font-family:Trebuchet MS;
+	}
+	
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	html::-webkit-scrollbar {
+	  display: none;
+	}
+
+	/* Hide scrollbar for IE, Edge and Firefox */
+	html {
+	  -ms-overflow-style: none;  /* IE and Edge */
+	  scrollbar-width: none;  /* Firefox */
+	}
+
+	
+	html {
+		scroll-behavior: smooth;
+	}						
+	
+	.landing_banner{
+		background-color: rgba(0, 0, 0, 0.8);
+		min-width: 100%;
+		min-height: 100%;
+		color:white;
+		text-align:center;
+	}
+	
+	.read_more{
+		display:flex;
+		min-width: 100%;
+		min-height: 100%;
+		text-align:center;
+	}
+	
+	.read_more div{
+		text-align:center;
+		width:33%;
+		color:black;
+	}
+	
+	
+	.line{
+		background-color:white;
+		margin:auto; 
+		padding:0.5px;
+	}
+	
+	.button {
+	  font: bold 11px Arial;
+	  color:white;
+	  text-decoration: none;
+	  background-color: transparent;
+	  border-radius:20px;
+	  padding: 2px 6px 2px 6px;
+	}
+	
+	.button:hover {
+	  font: bold 11px Arial;
+	  text-decoration: none;
+	  background-color: white;
+	  color:black;
+	  border-radius:20px;
+	  padding: 2px 6px 2px 6px;
+	}
+	
+	.vid_bg{
+		position: absolute;
+		right: 0;
+		z-index:-9999;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+	}
